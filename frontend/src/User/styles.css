@@ -1,0 +1,84 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .full-screen-bg {
+    background-image: url('https://img.freepik.com/premium-photo/cute-group-pets_818056-2374.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .text-gray-700 {
+    color: #4a5568;
+  }
+  
+  .text-red-500 {
+    color: #f56565;
+  }
+  
+  .text-red-500:hover {
+    color: #c53030;
+  }
+  
+  button:hover {
+    background-color: #c53030;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(72, 180, 242, 0.5);
+  }
+  
+  .focus\:ring-indigo-500:focus {
+    border-color: #5a67d8;
+    box-shadow: 0 0 0 3px rgba(90, 103, 216, 0.5);
+  }
+  
+  .exit-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #4a5568;
+    font-size: 2rem;
+    transform: scaleX(-1.5);
+  }
+  
+  .exit-icon:hover {
+    color: #2d3748;
+  }
+  
+  .admin-login {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #2b6cb0;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .admin-login:hover {
+    border-bottom: 2px solid #2b6cb0;
+  }
+  

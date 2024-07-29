@@ -1,0 +1,359 @@
+.navbar {
+    background-color: #ea2d2dc7 ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar-brand img {
+    height: 40px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 10px; 
+    font-size: 18px;
+    font-style: oblique;
+
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+ /* Continue from previous CSS */
+/* Add any additional styling here */
+
+.login-button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: #555; /* Darken the color on hover */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search-bar,
+    .login-button {
+      display: none; /* Hide search bar and login button on smaller screens */
+    }
+  
+    .navbar-nav {
+      margin-right: 0; /* Remove margin right from navbar items */
+    }
+  
+    .nav-item {
+      margin-right: 10px; /* Adjust spacing between navbar items on smaller screens */
+    }
+  }
+  /* Button css */
+  .cssbuttons-io-button {
+    background: #a370f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+
+
+
+  /* Servives */
+
+  /* Services.css */
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .services-title {
+    color: #333;
+    text-align: center;
+  }
+  
+  .service-category {
+    margin-bottom: 20px;
+  }
+  
+  .service-category-title {
+    color: #333;
+  }
+  
+  .service-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .service-list li {
+    margin-bottom: 5px;
+  }
+  
+  .service-contact {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+ /* AboutUs.css */
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us-content {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-content h2 {
+    color: #333;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 15px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    /* background-color: #0f0000; */
+    /* color: #333; */
+    padding: 0px 20px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-style: oblique;
+  }
+
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e6e6e6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ffffff;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  /*  */
+  /* App-wide styles */
+body {
+  font-family: Arial, sans-serif;
+ /* background-color:rgba(212, 206, 137, 0.811); */
+ /* background-color:rgb(248,249,250); */
+
+  margin: 0;
+  padding: 0;
+}
+
+/* Car List styles */
+.car-list {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Car Container styles */
+.car-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Car Card styles */
+.car-card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.car-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+#pop{
+  transition: transform 0.2s ease-in-out;
+  
+}
+#pop:hover{
+ 
+  transform: scale(1.08);
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .car-container {
+    flex-direction: column;
+  }
+
+  .car-card {
+    width: 100%;
+  }
+}
+.input-container {
+  position: relative;
+  
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus + label, input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 5px;
+  background: white;
+  padding: 0 5px;
+}
+
+label {
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  /* padding: 0 10px; */
+  pointer-events: none;
+  transition: 0.2s;
+}
+  
+  
